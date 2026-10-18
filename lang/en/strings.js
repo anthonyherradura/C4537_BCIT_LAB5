@@ -17,4 +17,4 @@ const SAMPLE_ROWS = [
     { name: "Elon Musk", dateOfBirth: "1999-01-01 00:00:00" }
 ];
 
-const API_BASE_URL = "https://your-server2-domain.xyz/lab5/api/v1/sql";
+const API_BASE_URL = "https://lab5-db-server-production.up.railway.app/lab5/api/v1/sql";
