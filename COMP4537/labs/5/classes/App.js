@@ -29,7 +29,7 @@ export class App {
     async onInsert() {
         await this.send(() => this.apiClient.insertRows(this.sampleRows));
     }
-    
+
     async onQuery() {
         const sql = this.queryInput.value.trim();
         if (!sql) {
