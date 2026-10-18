@@ -1,4 +1,5 @@
-const STRINGS = {
+export const STRINGS = {
+    APP_TITLE: "Lab 5 - DB Intro",
     INSERT_HEADER: "Insert sample patients.",
     INSERT_BUTTON: "Insert",
     QUERY_HEADER: "Run a SELECT query.",
@@ -10,11 +11,11 @@ const STRINGS = {
     NETWORK_ERROR: "Could not reach the server: "
 };
 
-const SAMPLE_ROWS = [
+export const SAMPLE_ROWS = [
     { name: "Sara Brown", dateOfBirth: "1901-01-01 00:00:00" },
     { name: "John Smith", dateOfBirth: "1941-01-01 00:00:00" },
     { name: "Jack Ma", dateOfBirth: "1961-01-30 00:00:00" },
     { name: "Elon Musk", dateOfBirth: "1999-01-01 00:00:00" }
 ];
 
-const API_BASE_URL = "https://lab5-db-server-production.up.railway.app/lab5/api/v1/sql";
+export const API_BASE_URL = "https://lab5-db-server-production.up.railway.app/lab5/api/v1/sql";

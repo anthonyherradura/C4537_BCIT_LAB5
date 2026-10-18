@@ -1,3 +1,6 @@
+/**
+ * Assisted with Claude Agent, written by hand
+ */
 export class ApiClient {
     constructor(apiBaseUrl) {
         this.apiBaseUrl = apiBaseUrl;
@@ -25,7 +28,7 @@ export class ApiClient {
     async parse(response) {
         const data = await response.json();
         return {
-            response: response.status,
+            status: response.status,
             data: data
         };
     }
